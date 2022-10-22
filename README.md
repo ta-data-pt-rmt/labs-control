@@ -26,9 +26,9 @@ With this repo, all this tasks are going to be taken care of:
 - Script that sends e-mails to all of the students
 
 **Project Owners**: 
-    - Gonçalo Jardim - TA
-    - Miguel Simón - TA
-    - Supervised by: David Henriques - LT
+- Gonçalo Jardim - TA
+- Miguel Simón - TA
+- Supervised by: David Henriques - LT
 
 
 ## User Guide:
@@ -36,7 +36,7 @@ With this repo, all this tasks are going to be taken care of:
 ### Environment and dependencies:
 
 1. Clone this repo to your personal GitHub account.
-2. If you are not in this directory already, cd into it.
-3. Create a virtual environment with python -m venv .venv
-4. Activate the virtual environment with source .venv/bin/activate or .venv\Scripts\activate on Windows
-5. Install its dependencies on editable mode with pip install -e .[dev] OR python -m pip install .  .
+2. If you are not in this directory already, `cd` into it.
+3. Create a virtual environment with `python -m venv .venv`
+4. Activate the virtual environment with source `.venv/bin/activate` or `.venv\Scripts\activate` on Windows
+5. Install its dependencies on editable mode with `pip install -e .[dev]` OR `python -m pip install .`  .
