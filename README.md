@@ -29,7 +29,7 @@ With this repo, all this tasks are going to be taken care of:
     Gonçalo Jardim - TA
     Miguel Simón - TA
 
-    Supervised by: David Henriques - LT
+Supervised by: David Henriques - LT
 
 
 ## User Guide:
