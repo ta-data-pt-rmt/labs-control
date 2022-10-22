@@ -2,9 +2,9 @@
 
 ![IH logo](/res/ironhack_logo.png)
 
-Repo for automation of Labs, improving productivity of TA's and allowing a better follow-up of student's labs and needs.
+### Repo for automation of Labs, improving productivity of TA's and allowing a better follow-up of student's labs and needs.
 
-With this repo, all this tasks are going to be taken care of:
+#### With this repo, all this tasks are going to be taken care of:
 
 - Check on a weekly basis, student submission of labs;
 - Track of unsubmitted labs;
