@@ -1,22 +1,13 @@
-[project]
-name = "labs-control"
-version = "0.1.0"
-readme = "README.md"
-requires-python = ">=3.7"
-description = "Automation of Lab Control for IH Data Analytics PT RMT"
-authors = [
-    {name = "Goncalo Jardim<goncalodajardim@gmail.com>"},
-    {name = "Miguel Simón<miguelsimonmoya@gmail.com>"},
-    {name = "Ironhack TA's<ta-data-pt-rmt@ironhack.com>}"}
-]
 
-dependencies = ["pandas", "numpy"]
+[dep]
+dependencies = [
+    "requests", "selenium", "beautifulsoup4", "pylint",
+    "openpyxl", "smtplib" ]
 
 [project.optional-dependencies]
 dev = [
     "requests", "selenium", "beautifulsoup4", "pylint",
-    "openpyxl", "smtplib", "email", "time", "random", 
-    ]
+    "openpyxl", "smtplib" ]
 
 [tool.setuptools]
 py-modules = []
