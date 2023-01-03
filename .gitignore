@@ -130,3 +130,6 @@ dmypy.json
 
 # Password info
 secrets.txt
+
+# Data
+.csv
