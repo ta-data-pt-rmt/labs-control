@@ -1,0 +1,681 @@
+week,lab_name,student_name,lab_status,delivery_date,week_num
+Week 1,Lab Strings,Adrian Flores,Delivered,14/09/2022,1
+Week 1,Lab Strings,Aferdita Zherka Zherka,Delivered,17/09/2022,1
+Week 1,Lab Strings,Alicia Andrés,Delivered,25/09/2022,1
+Week 1,Lab Strings,Amelie Haberland,Delivered,01/10/2022,1
+Week 1,Lab Strings,Angela Arredondo Mendoza,Delivered,14/09/2022,1
+Week 1,Lab Strings,Damiano Serra,Delivered,18/09/2022,1
+Week 1,Lab Strings,Daniel J Mendez Borges,Delivered,17/09/2022,1
+Week 1,Lab Strings,Fabio Blank Da Costa,Delivered,17/09/2022,1
+Week 1,Lab Strings,Federico Cavanagh,Delivered,14/09/2022,1
+Week 1,Lab Strings,Francisco Javier De Las Heras Jimenez,Delivered,13/09/2022,1
+Week 1,Lab Strings,Gregor Seegers,Delivered,14/09/2022,1
+Week 1,Lab Strings,Joaquin Valentin,Delivered,23/09/2022,1
+Week 1,Lab Strings,Manouk Meilof,Delivered,23/09/2022,1
+Week 1,Lab Strings,Marc Gavaldà,Delivered,13/11/2022,1
+Week 1,Lab Strings,María Vázquez Casares,Delivered,03/10/2022,1
+Week 1,Lab Strings,Max Grempel,Delivered,14/09/2022,1
+Week 1,Lab Strings,Shilei Tan Tan,Delivered,16/09/2022,1
+Week 1,Lab Strings,Suparna Mandal,Delivered,26/12/2022,1
+Week 1,Lab Strings,Óscar Iglesias Roqueiro,Delivered,13/09/2022,1
+Week 1,Lab Strings,Vanessa Andrade,,,1
+Week 1,"Lab Dicts, sets, tuples",Adrian Flores,Delivered,10/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Aferdita Zherka Zherka,Delivered,14/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Alicia Andrés,Delivered,24/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Amelie Haberland,Delivered,22/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Angela Arredondo Mendoza,Delivered,15/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Damiano Serra,Delivered,13/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Daniel J Mendez Borges,Delivered,16/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Fabio Blank Da Costa,Delivered,11/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Federico Cavanagh,Delivered,13/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Francisco Javier De Las Heras Jimenez,Delivered,13/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Gregor Seegers,Delivered,11/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Joaquin Valentin,Delivered,12/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Manouk Meilof,Delivered,13/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Marc Gavaldà,Delivered,11/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",María Vázquez Casares,Delivered,24/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Max Grempel,Delivered,12/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Shilei Tan Tan,Delivered,12/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Suparna Mandal,Delivered,28/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Óscar Iglesias Roqueiro,Delivered,13/09/2022,1
+Week 1,"Lab Dicts, sets, tuples",Vanessa Andrade,,,1
+Week 1,Lab Lists,Adrian Flores,Delivered,09/09/2022,1
+Week 1,Lab Lists,Aferdita Zherka Zherka,Delivered,12/09/2022,1
+Week 1,Lab Lists,Alicia Andrés,Delivered,13/09/2022,1
+Week 1,Lab Lists,Amelie Haberland,Delivered,11/09/2022,1
+Week 1,Lab Lists,Angela Arredondo Mendoza,Delivered,11/09/2022,1
+Week 1,Lab Lists,Damiano Serra,Delivered,10/09/2022,1
+Week 1,Lab Lists,Daniel J Mendez Borges,Delivered,09/09/2022,1
+Week 1,Lab Lists,Fabio Blank Da Costa,Delivered,09/09/2022,1
+Week 1,Lab Lists,Federico Cavanagh,Delivered,09/09/2022,1
+Week 1,Lab Lists,Francisco Javier De Las Heras Jimenez,Delivered,10/09/2022,1
+Week 1,Lab Lists,Gregor Seegers,Delivered,09/09/2022,1
+Week 1,Lab Lists,Joaquin Valentin,Delivered,09/09/2022,1
+Week 1,Lab Lists,Manouk Meilof,Delivered,09/09/2022,1
+Week 1,Lab Lists,Marc Gavaldà,Delivered,09/09/2022,1
+Week 1,Lab Lists,María Vázquez Casares,Delivered,13/09/2022,1
+Week 1,Lab Lists,Max Grempel,Delivered,09/09/2022,1
+Week 1,Lab Lists,Shilei Tan Tan,Delivered,11/09/2022,1
+Week 1,Lab Lists,Suparna Mandal,Delivered,13/09/2022,1
+Week 1,Lab Lists,Vanessa Andrade,Delivered,28/09/2022,1
+Week 1,Lab Lists,Óscar Iglesias Roqueiro,Delivered,09/09/2022,1
+Week 1,Lab Git,Adrian Flores,Delivered,07/09/2022,1
+Week 1,Lab Git,Aferdita Zherka Zherka,Delivered,07/09/2022,1
+Week 1,Lab Git,Alicia Andrés,Delivered,08/09/2022,1
+Week 1,Lab Git,Amelie Haberland,Delivered,07/09/2022,1
+Week 1,Lab Git,Angela Arredondo Mendoza,Delivered,08/09/2022,1
+Week 1,Lab Git,Damiano Serra,Delivered,07/09/2022,1
+Week 1,Lab Git,Daniel J Mendez Borges,Delivered,07/09/2022,1
+Week 1,Lab Git,Fabio Blank Da Costa,Delivered,09/09/2022,1
+Week 1,Lab Git,Federico Cavanagh,Delivered,07/09/2022,1
+Week 1,Lab Git,Francisco Javier De Las Heras Jimenez,Delivered,07/09/2022,1
+Week 1,Lab Git,Gregor Seegers,Delivered,07/09/2022,1
+Week 1,Lab Git,Joaquin Valentin,Delivered,06/09/2022,1
+Week 1,Lab Git,Manouk Meilof,Delivered,07/09/2022,1
+Week 1,Lab Git,Marc Gavaldà,Delivered,07/09/2022,1
+Week 1,Lab Git,María Vázquez Casares,Delivered,11/09/2022,1
+Week 1,Lab Git,Max Grempel,Delivered,06/09/2022,1
+Week 1,Lab Git,Shilei Tan Tan,Delivered,08/09/2022,1
+Week 1,Lab Git,Suparna Mandal,Delivered,07/09/2022,1
+Week 1,Lab Git,Vanessa Andrade,Delivered,28/09/2022,1
+Week 1,Lab Git,Óscar Iglesias Roqueiro,Delivered,07/09/2022,1
+Week 2,Lab DataFrame Calculations,Adrian Flores,Delivered,23/09/2022,2
+Week 2,Lab DataFrame Calculations,Aferdita Zherka Zherka,Delivered,27/09/2022,2
+Week 2,Lab DataFrame Calculations,Alicia Andrés,Delivered,04/10/2022,2
+Week 2,Lab DataFrame Calculations,Amelie Haberland,Delivered,02/10/2022,2
+Week 2,Lab DataFrame Calculations,Angela Arredondo Mendoza,Delivered,24/09/2022,2
+Week 2,Lab DataFrame Calculations,Damiano Serra,Delivered,26/09/2022,2
+Week 2,Lab DataFrame Calculations,Daniel J Mendez Borges,Delivered,10/10/2022,2
+Week 2,Lab DataFrame Calculations,Fabio Blank Da Costa,Delivered,01/10/2022,2
+Week 2,Lab DataFrame Calculations,Federico Cavanagh,Delivered,22/09/2022,2
+Week 2,Lab DataFrame Calculations,Francisco Javier De Las Heras Jimenez,Delivered,01/10/2022,2
+Week 2,Lab DataFrame Calculations,Gregor Seegers,Delivered,23/09/2022,2
+Week 2,Lab DataFrame Calculations,Joaquin Valentin,Delivered,26/09/2022,2
+Week 2,Lab DataFrame Calculations,Marc Gavaldà,Delivered,25/09/2022,2
+Week 2,Lab DataFrame Calculations,María Vázquez Casares,Delivered,11/11/2022,2
+Week 2,Lab DataFrame Calculations,Max Grempel,Delivered,21/09/2022,2
+Week 2,Lab DataFrame Calculations,Shilei Tan Tan,Delivered,27/09/2022,2
+Week 2,Lab DataFrame Calculations,Suparna Mandal,Delivered,14/11/2022,2
+Week 2,Lab DataFrame Calculations,Óscar Iglesias Roqueiro,Delivered,25/09/2022,2
+Week 2,Lab DataFrame Calculations,Manouk Meilof,,,2
+Week 2,Lab DataFrame Calculations,Vanessa Andrade,,,2
+Week 2,Lab Data Cleaning,Adrian Flores,Delivered,18/09/2022,2
+Week 2,Lab Data Cleaning,Aferdita Zherka Zherka,Delivered,22/09/2022,2
+Week 2,Lab Data Cleaning,Alicia Andrés,Delivered,04/10/2022,2
+Week 2,Lab Data Cleaning,Amelie Haberland,Delivered,27/09/2022,2
+Week 2,Lab Data Cleaning,Angela Arredondo Mendoza,Delivered,22/09/2022,2
+Week 2,Lab Data Cleaning,Damiano Serra,Delivered,22/09/2022,2
+Week 2,Lab Data Cleaning,Daniel J Mendez Borges,Delivered,22/09/2022,2
+Week 2,Lab Data Cleaning,Fabio Blank Da Costa,Delivered,17/09/2022,2
+Week 2,Lab Data Cleaning,Federico Cavanagh,Delivered,18/09/2022,2
+Week 2,Lab Data Cleaning,Francisco Javier De Las Heras Jimenez,Delivered,19/09/2022,2
+Week 2,Lab Data Cleaning,Gregor Seegers,Delivered,19/09/2022,2
+Week 2,Lab Data Cleaning,Joaquin Valentin,Delivered,20/09/2022,2
+Week 2,Lab Data Cleaning,Manouk Meilof,Delivered,23/09/2022,2
+Week 2,Lab Data Cleaning,Marc Gavaldà,Delivered,16/09/2022,2
+Week 2,Lab Data Cleaning,María Vázquez Casares,Delivered,11/11/2022,2
+Week 2,Lab Data Cleaning,Max Grempel,Delivered,27/09/2022,2
+Week 2,Lab Data Cleaning,Shilei Tan Tan,Delivered,27/09/2022,2
+Week 2,Lab Data Cleaning,Suparna Mandal,Delivered,24/09/2022,2
+Week 2,Lab Data Cleaning,Óscar Iglesias Roqueiro,Delivered,23/09/2022,2
+Week 2,Lab Data Cleaning,Vanessa Andrade,,,2
+Week 2,Lab Import-Export,Adrian Flores,Delivered,18/09/2022,2
+Week 2,Lab Import-Export,Aferdita Zherka Zherka,Delivered,22/09/2022,2
+Week 2,Lab Import-Export,Alicia Andrés,Delivered,27/09/2022,2
+Week 2,Lab Import-Export,Amelie Haberland,Delivered,21/09/2022,2
+Week 2,Lab Import-Export,Angela Arredondo Mendoza,Delivered,18/09/2022,2
+Week 2,Lab Import-Export,Damiano Serra,Delivered,22/09/2022,2
+Week 2,Lab Import-Export,Daniel J Mendez Borges,Delivered,17/09/2022,2
+Week 2,Lab Import-Export,Fabio Blank Da Costa,Delivered,17/09/2022,2
+Week 2,Lab Import-Export,Federico Cavanagh,Delivered,17/09/2022,2
+Week 2,Lab Import-Export,Francisco Javier De Las Heras Jimenez,Delivered,17/09/2022,2
+Week 2,Lab Import-Export,Gregor Seegers,Delivered,16/09/2022,2
+Week 2,Lab Import-Export,Joaquin Valentin,Delivered,18/09/2022,2
+Week 2,Lab Import-Export,Manouk Meilof,Delivered,18/09/2022,2
+Week 2,Lab Import-Export,Marc Gavaldà,Delivered,15/09/2022,2
+Week 2,Lab Import-Export,María Vázquez Casares,Delivered,24/09/2022,2
+Week 2,Lab Import-Export,Max Grempel,Delivered,19/09/2022,2
+Week 2,Lab Import-Export,Shilei Tan Tan,Delivered,16/09/2022,2
+Week 2,Lab Import-Export,Suparna Mandal,Delivered,24/09/2022,2
+Week 2,Lab Import-Export,Óscar Iglesias Roqueiro,Delivered,19/09/2022,2
+Week 2,Lab Import-Export,Vanessa Andrade,,,2
+Week 2,Lab Intro to pandas,Adrian Flores,Delivered,17/09/2022,2
+Week 2,Lab Intro to pandas,Aferdita Zherka Zherka,Delivered,21/09/2022,2
+Week 2,Lab Intro to pandas,Alicia Andrés,Delivered,27/09/2022,2
+Week 2,Lab Intro to pandas,Amelie Haberland,Delivered,16/09/2022,2
+Week 2,Lab Intro to pandas,Angela Arredondo Mendoza,Delivered,18/09/2022,2
+Week 2,Lab Intro to pandas,Damiano Serra,Delivered,16/09/2022,2
+Week 2,Lab Intro to pandas,Daniel J Mendez Borges,Delivered,17/09/2022,2
+Week 2,Lab Intro to pandas,Fabio Blank Da Costa,Delivered,13/09/2022,2
+Week 2,Lab Intro to pandas,Federico Cavanagh,Delivered,14/09/2022,2
+Week 2,Lab Intro to pandas,Francisco Javier De Las Heras Jimenez,Delivered,13/09/2022,2
+Week 2,Lab Intro to pandas,Gregor Seegers,Delivered,14/09/2022,2
+Week 2,Lab Intro to pandas,Joaquin Valentin,Delivered,15/09/2022,2
+Week 2,Lab Intro to pandas,Manouk Meilof,Delivered,13/09/2022,2
+Week 2,Lab Intro to pandas,Marc Gavaldà,Delivered,13/09/2022,2
+Week 2,Lab Intro to pandas,María Vázquez Casares,Delivered,13/09/2022,2
+Week 2,Lab Intro to pandas,Max Grempel,Delivered,15/09/2022,2
+Week 2,Lab Intro to pandas,Shilei Tan Tan,Delivered,15/09/2022,2
+Week 2,Lab Intro to pandas,Suparna Mandal,Delivered,14/09/2022,2
+Week 2,Lab Intro to pandas,Vanessa Andrade,Delivered,28/09/2022,2
+Week 2,Lab Intro to pandas,Óscar Iglesias Roqueiro,Delivered,15/09/2022,2
+Week 3,Lab Descriptive Stats,Adrian Flores,Delivered,27/09/2022,3
+Week 3,Lab Descriptive Stats,Aferdita Zherka Zherka,Delivered,16/11/2022,3
+Week 3,Lab Descriptive Stats,Alicia Andrés,Delivered,06/10/2022,3
+Week 3,Lab Descriptive Stats,Amelie Haberland,Delivered,11/10/2022,3
+Week 3,Lab Descriptive Stats,Angela Arredondo Mendoza,Delivered,01/10/2022,3
+Week 3,Lab Descriptive Stats,Damiano Serra,Delivered,02/10/2022,3
+Week 3,Lab Descriptive Stats,Fabio Blank Da Costa,Delivered,03/10/2022,3
+Week 3,Lab Descriptive Stats,Federico Cavanagh,Delivered,28/09/2022,3
+Week 3,Lab Descriptive Stats,Francisco Javier De Las Heras Jimenez,Delivered,27/09/2022,3
+Week 3,Lab Descriptive Stats,Gregor Seegers,Delivered,28/09/2022,3
+Week 3,Lab Descriptive Stats,Joaquin Valentin,Delivered,28/09/2022,3
+Week 3,Lab Descriptive Stats,Marc Gavaldà,Delivered,27/09/2022,3
+Week 3,Lab Descriptive Stats,Max Grempel,Delivered,10/10/2022,3
+Week 3,Lab Descriptive Stats,Shilei Tan Tan,Delivered,03/10/2022,3
+Week 3,Lab Descriptive Stats,Suparna Mandal,Delivered,30/12/2022,3
+Week 3,Lab Descriptive Stats,Óscar Iglesias Roqueiro,Delivered,29/09/2022,3
+Week 3,Lab Descriptive Stats,Daniel J Mendez Borges,,,3
+Week 3,Lab Descriptive Stats,Manouk Meilof,,,3
+Week 3,Lab Descriptive Stats,María Vázquez Casares,,,3
+Week 3,Lab Descriptive Stats,Vanessa Andrade,,,3
+Week 3,Lab Advanced Pandas,Adrian Flores,Delivered,25/09/2022,3
+Week 3,Lab Advanced Pandas,Aferdita Zherka Zherka,Delivered,17/10/2022,3
+Week 3,Lab Advanced Pandas,Alicia Andrés,Delivered,06/10/2022,3
+Week 3,Lab Advanced Pandas,Amelie Haberland,Delivered,05/10/2022,3
+Week 3,Lab Advanced Pandas,Angela Arredondo Mendoza,Delivered,30/09/2022,3
+Week 3,Lab Advanced Pandas,Damiano Serra,Delivered,26/09/2022,3
+Week 3,Lab Advanced Pandas,Daniel J Mendez Borges,Delivered,18/10/2022,3
+Week 3,Lab Advanced Pandas,Fabio Blank Da Costa,Delivered,02/10/2022,3
+Week 3,Lab Advanced Pandas,Federico Cavanagh,Delivered,24/09/2022,3
+Week 3,Lab Advanced Pandas,Francisco Javier De Las Heras Jimenez,Delivered,27/09/2022,3
+Week 3,Lab Advanced Pandas,Gregor Seegers,Delivered,25/09/2022,3
+Week 3,Lab Advanced Pandas,Joaquin Valentin,Delivered,26/09/2022,3
+Week 3,Lab Advanced Pandas,Marc Gavaldà,Delivered,26/09/2022,3
+Week 3,Lab Advanced Pandas,María Vázquez Casares,Delivered,11/11/2022,3
+Week 3,Lab Advanced Pandas,Max Grempel,Delivered,01/10/2022,3
+Week 3,Lab Advanced Pandas,Shilei Tan Tan,Delivered,01/10/2022,3
+Week 3,Lab Advanced Pandas,Suparna Mandal,Delivered,16/11/2022,3
+Week 3,Lab Advanced Pandas,Vanessa Andrade,Delivered,11/10/2022,3
+Week 3,Lab Advanced Pandas,Óscar Iglesias Roqueiro,Delivered,26/09/2022,3
+Week 3,Lab Advanced Pandas,Manouk Meilof,,,3
+Week 4,Lab Regression Analysis,Adrian Flores,Delivered,01/10/2022,4
+Week 4,Lab Regression Analysis,Aferdita Zherka Zherka,Delivered,16/11/2022,4
+Week 4,Lab Regression Analysis,Alicia Andrés,Delivered,17/10/2022,4
+Week 4,Lab Regression Analysis,Angela Arredondo Mendoza,Delivered,09/10/2022,4
+Week 4,Lab Regression Analysis,Damiano Serra,Delivered,03/10/2022,4
+Week 4,Lab Regression Analysis,Daniel J Mendez Borges,Delivered,07/12/2022,4
+Week 4,Lab Regression Analysis,Fabio Blank Da Costa,Delivered,03/10/2022,4
+Week 4,Lab Regression Analysis,Federico Cavanagh,Delivered,02/10/2022,4
+Week 4,Lab Regression Analysis,Francisco Javier De Las Heras Jimenez,Delivered,04/10/2022,4
+Week 4,Lab Regression Analysis,Gregor Seegers,Delivered,05/10/2022,4
+Week 4,Lab Regression Analysis,Joaquin Valentin,Delivered,04/10/2022,4
+Week 4,Lab Regression Analysis,Marc Gavaldà,Delivered,05/10/2022,4
+Week 4,Lab Regression Analysis,María Vázquez Casares,Delivered,12/11/2022,4
+Week 4,Lab Regression Analysis,Max Grempel,Delivered,11/10/2022,4
+Week 4,Lab Regression Analysis,Shilei Tan Tan,Delivered,13/10/2022,4
+Week 4,Lab Regression Analysis,Suparna Mandal,Delivered,13/10/2022,4
+Week 4,Lab Regression Analysis,Vanessa Andrade,Delivered,11/10/2022,4
+Week 4,Lab Regression Analysis,Óscar Iglesias Roqueiro,Delivered,03/10/2022,4
+Week 4,Lab Regression Analysis,Amelie Haberland,,,4
+Week 4,Lab Regression Analysis,Manouk Meilof,,,4
+Week 4,Lab Matplotlib & Seaborn,Adrian Flores,Delivered,01/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Aferdita Zherka Zherka,Delivered,16/11/2022,4
+Week 4,Lab Matplotlib & Seaborn,Alicia Andrés,Delivered,17/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Amelie Haberland,Delivered,30/11/2022,4
+Week 4,Lab Matplotlib & Seaborn,Angela Arredondo Mendoza,Delivered,07/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Damiano Serra,Delivered,02/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Daniel J Mendez Borges,Delivered,11/11/2022,4
+Week 4,Lab Matplotlib & Seaborn,Fabio Blank Da Costa,Delivered,02/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Federico Cavanagh,Delivered,01/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Francisco Javier De Las Heras Jimenez,Delivered,06/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Gregor Seegers,Delivered,02/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Joaquin Valentin,Delivered,01/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Marc Gavaldà,Delivered,03/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,María Vázquez Casares,Delivered,13/11/2022,4
+Week 4,Lab Matplotlib & Seaborn,Max Grempel,Delivered,29/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Shilei Tan Tan,Delivered,10/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Suparna Mandal,Delivered,23/12/2022,4
+Week 4,Lab Matplotlib & Seaborn,Vanessa Andrade,Delivered,11/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Óscar Iglesias Roqueiro,Delivered,02/10/2022,4
+Week 4,Lab Matplotlib & Seaborn,Manouk Meilof,,,4
+Week 4,Lab Subsetting and Descriptive Stats,Adrian Flores,Delivered,27/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Aferdita Zherka Zherka,Delivered,16/11/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Alicia Andrés,Delivered,10/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Angela Arredondo Mendoza,Delivered,06/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Damiano Serra,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Daniel J Mendez Borges,Delivered,11/11/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Fabio Blank Da Costa,Delivered,02/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Federico Cavanagh,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Francisco Javier De Las Heras Jimenez,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Gregor Seegers,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Joaquin Valentin,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Marc Gavaldà,Delivered,27/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,María Vázquez Casares,Delivered,09/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Max Grempel,Delivered,10/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Shilei Tan Tan,Delivered,03/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Suparna Mandal,Delivered,04/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Vanessa Andrade,Delivered,11/10/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Óscar Iglesias Roqueiro,Delivered,29/09/2022,4
+Week 4,Lab Subsetting and Descriptive Stats,Amelie Haberland,,,4
+Week 4,Lab Subsetting and Descriptive Stats,Manouk Meilof,,,4
+Week 6,Lab MySQL Actions,Adrian Flores,Delivered,16/10/2022,6
+Week 6,Lab MySQL Actions,Alicia Andrés,Delivered,24/10/2022,6
+Week 6,Lab MySQL Actions,Amelie Haberland,Delivered,29/10/2022,6
+Week 6,Lab MySQL Actions,Angela Arredondo Mendoza,Delivered,21/10/2022,6
+Week 6,Lab MySQL Actions,Damiano Serra,Delivered,17/10/2022,6
+Week 6,Lab MySQL Actions,Fabio Blank Da Costa,Delivered,18/10/2022,6
+Week 6,Lab MySQL Actions,Federico Cavanagh,Delivered,18/10/2022,6
+Week 6,Lab MySQL Actions,Francisco Javier De Las Heras Jimenez,Delivered,20/10/2022,6
+Week 6,Lab MySQL Actions,Gregor Seegers,Delivered,17/10/2022,6
+Week 6,Lab MySQL Actions,Joaquin Valentin,Delivered,20/10/2022,6
+Week 6,Lab MySQL Actions,Marc Gavaldà,Delivered,16/10/2022,6
+Week 6,Lab MySQL Actions,María Vázquez Casares,Delivered,29/10/2022,6
+Week 6,Lab MySQL Actions,Shilei Tan Tan,Delivered,01/11/2022,6
+Week 6,Lab MySQL Actions,Suparna Mandal,Delivered,18/10/2022,6
+Week 6,Lab MySQL Actions,Óscar Iglesias Roqueiro,Delivered,16/10/2022,6
+Week 6,Lab MySQL Actions,Aferdita Zherka Zherka,,,6
+Week 6,Lab MySQL Actions,Daniel J Mendez Borges,,,6
+Week 6,Lab MySQL Actions,Manouk Meilof,,,6
+Week 6,Lab MySQL Actions,Max Grempel,,,6
+Week 6,Lab MySQL Actions,Vanessa Andrade,,,6
+Week 6,Lab MySQL First Queries,Adrian Flores,Delivered,14/10/2022,6
+Week 6,Lab MySQL First Queries,Aferdita Zherka Zherka,Delivered,26/12/2022,6
+Week 6,Lab MySQL First Queries,Alicia Andrés,Delivered,18/10/2022,6
+Week 6,Lab MySQL First Queries,Amelie Haberland,Delivered,17/10/2022,6
+Week 6,Lab MySQL First Queries,Angela Arredondo Mendoza,Delivered,14/10/2022,6
+Week 6,Lab MySQL First Queries,Damiano Serra,Delivered,14/10/2022,6
+Week 6,Lab MySQL First Queries,Fabio Blank Da Costa,Delivered,18/10/2022,6
+Week 6,Lab MySQL First Queries,Federico Cavanagh,Delivered,15/10/2022,6
+Week 6,Lab MySQL First Queries,Francisco Javier De Las Heras Jimenez,Delivered,15/10/2022,6
+Week 6,Lab MySQL First Queries,Gregor Seegers,Delivered,16/10/2022,6
+Week 6,Lab MySQL First Queries,Joaquin Valentin,Delivered,16/10/2022,6
+Week 6,Lab MySQL First Queries,Manouk Meilof,Delivered,17/10/2022,6
+Week 6,Lab MySQL First Queries,Marc Gavaldà,Delivered,14/10/2022,6
+Week 6,Lab MySQL First Queries,María Vázquez Casares,Delivered,16/10/2022,6
+Week 6,Lab MySQL First Queries,Max Grempel,Delivered,29/10/2022,6
+Week 6,Lab MySQL First Queries,Shilei Tan Tan,Delivered,15/10/2022,6
+Week 6,Lab MySQL First Queries,Suparna Mandal,Delivered,28/12/2022,6
+Week 6,Lab MySQL First Queries,Óscar Iglesias Roqueiro,Delivered,14/10/2022,6
+Week 6,Lab MySQL First Queries,Daniel J Mendez Borges,,,6
+Week 6,Lab MySQL First Queries,Vanessa Andrade,,,6
+Week 7,Lab MySQL Select,Federico Cavanagh,Delivered,24/10/2022,7
+Week 7,Lab MySQL Select,Gregor Seegers,Delivered,27/10/2022,7
+Week 7,Lab MySQL Select,Joaquin Valentin,Delivered,29/10/2022,7
+Week 7,Lab MySQL Select,Óscar Iglesias Roqueiro,Delivered,19/10/2022,7
+Week 7,Lab MySQL Select,Adrian Flores,,,7
+Week 7,Lab MySQL Select,Aferdita Zherka Zherka,,,7
+Week 7,Lab MySQL Select,Alicia Andrés,,,7
+Week 7,Lab MySQL Select,Amelie Haberland,,,7
+Week 7,Lab MySQL Select,Angela Arredondo Mendoza,,,7
+Week 7,Lab MySQL Select,Damiano Serra,,,7
+Week 7,Lab MySQL Select,Daniel J Mendez Borges,,,7
+Week 7,Lab MySQL Select,Fabio Blank Da Costa,,,7
+Week 7,Lab MySQL Select,Francisco Javier De Las Heras Jimenez,,,7
+Week 7,Lab MySQL Select,Manouk Meilof,,,7
+Week 7,Lab MySQL Select,Marc Gavaldà,,,7
+Week 7,Lab MySQL Select,María Vázquez Casares,,,7
+Week 7,Lab MySQL Select,Max Grempel,,,7
+Week 7,Lab MySQL Select,Shilei Tan Tan,,,7
+Week 7,Lab MySQL Select,Suparna Mandal,,,7
+Week 7,Lab MySQL Select,Vanessa Andrade,,,7
+Week 8,Lab API Scavenger,Adrian Flores,Delivered,31/10/2022,8
+Week 8,Lab API Scavenger,Fabio Blank Da Costa,Delivered,29/11/2022,8
+Week 8,Lab API Scavenger,Federico Cavanagh,Delivered,03/11/2022,8
+Week 8,Lab API Scavenger,Francisco Javier De Las Heras Jimenez,Delivered,14/11/2022,8
+Week 8,Lab API Scavenger,Gregor Seegers,Delivered,06/11/2022,8
+Week 8,Lab API Scavenger,Joaquin Valentin,Delivered,08/11/2022,8
+Week 8,Lab API Scavenger,Marc Gavaldà,Delivered,02/11/2022,8
+Week 8,Lab API Scavenger,Shilei Tan Tan,Delivered,26/12/2022,8
+Week 8,Lab API Scavenger,Óscar Iglesias Roqueiro,Delivered,07/11/2022,8
+Week 8,Lab API Scavenger,Aferdita Zherka Zherka,,,8
+Week 8,Lab API Scavenger,Alicia Andrés,,,8
+Week 8,Lab API Scavenger,Amelie Haberland,,,8
+Week 8,Lab API Scavenger,Angela Arredondo Mendoza,,,8
+Week 8,Lab API Scavenger,Damiano Serra,,,8
+Week 8,Lab API Scavenger,Daniel J Mendez Borges,,,8
+Week 8,Lab API Scavenger,Manouk Meilof,,,8
+Week 8,Lab API Scavenger,María Vázquez Casares,,,8
+Week 8,Lab API Scavenger,Max Grempel,,,8
+Week 8,Lab API Scavenger,Suparna Mandal,,,8
+Week 8,Lab API Scavenger,Vanessa Andrade,,,8
+Week 8,Lab Web Scraping,Adrian Flores,Delivered,30/10/2022,8
+Week 8,Lab Web Scraping,Alicia Andrés,Delivered,12/11/2022,8
+Week 8,Lab Web Scraping,Amelie Haberland,Delivered,06/11/2022,8
+Week 8,Lab Web Scraping,Angela Arredondo Mendoza,Delivered,10/11/2022,8
+Week 8,Lab Web Scraping,Damiano Serra,Delivered,12/11/2022,8
+Week 8,Lab Web Scraping,Fabio Blank Da Costa,Delivered,29/11/2022,8
+Week 8,Lab Web Scraping,Federico Cavanagh,Delivered,01/11/2022,8
+Week 8,Lab Web Scraping,Francisco Javier De Las Heras Jimenez,Delivered,09/11/2022,8
+Week 8,Lab Web Scraping,Gregor Seegers,Delivered,06/11/2022,8
+Week 8,Lab Web Scraping,Joaquin Valentin,Delivered,07/11/2022,8
+Week 8,Lab Web Scraping,Marc Gavaldà,Delivered,30/10/2022,8
+Week 8,Lab Web Scraping,María Vázquez Casares,Delivered,06/11/2022,8
+Week 8,Lab Web Scraping,Shilei Tan Tan,Delivered,08/11/2022,8
+Week 8,Lab Web Scraping,Suparna Mandal,Delivered,30/12/2022,8
+Week 8,Lab Web Scraping,Óscar Iglesias Roqueiro,Delivered,02/11/2022,8
+Week 8,Lab Web Scraping,Aferdita Zherka Zherka,,,8
+Week 8,Lab Web Scraping,Daniel J Mendez Borges,,,8
+Week 8,Lab Web Scraping,Manouk Meilof,,,8
+Week 8,Lab Web Scraping,Max Grempel,,,8
+Week 8,Lab Web Scraping,Vanessa Andrade,,,8
+Week 10,Lab Confidence Intervals,Federico Cavanagh,Delivered,14/11/2022,10
+Week 10,Lab Confidence Intervals,Gregor Seegers,Delivered,24/11/2022,10
+Week 10,Lab Confidence Intervals,Óscar Iglesias Roqueiro,Delivered,17/11/2022,10
+Week 10,Lab Confidence Intervals,Adrian Flores,,,10
+Week 10,Lab Confidence Intervals,Aferdita Zherka Zherka,,,10
+Week 10,Lab Confidence Intervals,Alicia Andrés,,,10
+Week 10,Lab Confidence Intervals,Amelie Haberland,,,10
+Week 10,Lab Confidence Intervals,Angela Arredondo Mendoza,,,10
+Week 10,Lab Confidence Intervals,Damiano Serra,,,10
+Week 10,Lab Confidence Intervals,Daniel J Mendez Borges,,,10
+Week 10,Lab Confidence Intervals,Fabio Blank Da Costa,,,10
+Week 10,Lab Confidence Intervals,Francisco Javier De Las Heras Jimenez,,,10
+Week 10,Lab Confidence Intervals,Joaquin Valentin,,,10
+Week 10,Lab Confidence Intervals,Manouk Meilof,,,10
+Week 10,Lab Confidence Intervals,Marc Gavaldà,,,10
+Week 10,Lab Confidence Intervals,María Vázquez Casares,,,10
+Week 10,Lab Confidence Intervals,Max Grempel,,,10
+Week 10,Lab Confidence Intervals,Shilei Tan Tan,,,10
+Week 10,Lab Confidence Intervals,Suparna Mandal,,,10
+Week 10,Lab Confidence Intervals,Vanessa Andrade,,,10
+Week 10,Lab Pandas Deep-dive,Adrian Flores,Delivered,13/11/2022,10
+Week 10,Lab Pandas Deep-dive,Alicia Andrés,Delivered,01/12/2022,10
+Week 10,Lab Pandas Deep-dive,Amelie Haberland,Delivered,04/12/2022,10
+Week 10,Lab Pandas Deep-dive,Angela Arredondo Mendoza,Delivered,14/11/2022,10
+Week 10,Lab Pandas Deep-dive,Damiano Serra,Delivered,28/12/2022,10
+Week 10,Lab Pandas Deep-dive,Fabio Blank Da Costa,Delivered,29/11/2022,10
+Week 10,Lab Pandas Deep-dive,Federico Cavanagh,Delivered,15/11/2022,10
+Week 10,Lab Pandas Deep-dive,Francisco Javier De Las Heras Jimenez,Delivered,17/11/2022,10
+Week 10,Lab Pandas Deep-dive,Gregor Seegers,Delivered,18/11/2022,10
+Week 10,Lab Pandas Deep-dive,Joaquin Valentin,Delivered,15/11/2022,10
+Week 10,Lab Pandas Deep-dive,Marc Gavaldà,Delivered,28/11/2022,10
+Week 10,Lab Pandas Deep-dive,María Vázquez Casares,Delivered,12/11/2022,10
+Week 10,Lab Pandas Deep-dive,Shilei Tan Tan,Delivered,30/12/2022,10
+Week 10,Lab Pandas Deep-dive,Suparna Mandal,Delivered,14/11/2022,10
+Week 10,Lab Pandas Deep-dive,Óscar Iglesias Roqueiro,Delivered,17/11/2022,10
+Week 10,Lab Pandas Deep-dive,Aferdita Zherka Zherka,,,10
+Week 10,Lab Pandas Deep-dive,Daniel J Mendez Borges,,,10
+Week 10,Lab Pandas Deep-dive,Manouk Meilof,,,10
+Week 10,Lab Pandas Deep-dive,Max Grempel,,,10
+Week 10,Lab Pandas Deep-dive,Vanessa Andrade,,,10
+Week 11,Lab BI Analysis - Tableau,Gregor Seegers,Delivered,28/11/2022,11
+Week 11,Lab BI Analysis - Tableau,Óscar Iglesias Roqueiro,Delivered,21/11/2022,11
+Week 11,Lab BI Analysis - Tableau,Adrian Flores,,,11
+Week 11,Lab BI Analysis - Tableau,Aferdita Zherka Zherka,,,11
+Week 11,Lab BI Analysis - Tableau,Alicia Andrés,,,11
+Week 11,Lab BI Analysis - Tableau,Amelie Haberland,,,11
+Week 11,Lab BI Analysis - Tableau,Angela Arredondo Mendoza,,,11
+Week 11,Lab BI Analysis - Tableau,Damiano Serra,,,11
+Week 11,Lab BI Analysis - Tableau,Daniel J Mendez Borges,,,11
+Week 11,Lab BI Analysis - Tableau,Fabio Blank Da Costa,,,11
+Week 11,Lab BI Analysis - Tableau,Federico Cavanagh,,,11
+Week 11,Lab BI Analysis - Tableau,Francisco Javier De Las Heras Jimenez,,,11
+Week 11,Lab BI Analysis - Tableau,Joaquin Valentin,,,11
+Week 11,Lab BI Analysis - Tableau,Manouk Meilof,,,11
+Week 11,Lab BI Analysis - Tableau,Marc Gavaldà,,,11
+Week 11,Lab BI Analysis - Tableau,María Vázquez Casares,,,11
+Week 11,Lab BI Analysis - Tableau,Max Grempel,,,11
+Week 11,Lab BI Analysis - Tableau,Shilei Tan Tan,,,11
+Week 11,Lab BI Analysis - Tableau,Suparna Mandal,,,11
+Week 11,Lab BI Analysis - Tableau,Vanessa Andrade,,,11
+Week 11,Lab Intro to BI - Tableau,Adrian Flores,Delivered,17/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Aferdita Zherka Zherka,Delivered,26/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Alicia Andrés,Delivered,22/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Amelie Haberland,Delivered,20/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Angela Arredondo Mendoza,Delivered,02/01/2023,11
+Week 11,Lab Intro to BI - Tableau,Damiano Serra,Delivered,20/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Fabio Blank Da Costa,Delivered,27/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Federico Cavanagh,Delivered,20/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Francisco Javier De Las Heras Jimenez,Delivered,20/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Gregor Seegers,Delivered,25/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Marc Gavaldà,Delivered,17/12/2022,11
+Week 11,Lab Intro to BI - Tableau,María Vázquez Casares,Delivered,20/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Max Grempel,Delivered,03/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Shilei Tan Tan,Delivered,26/12/2022,11
+Week 11,Lab Intro to BI - Tableau,Suparna Mandal,Delivered,20/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Óscar Iglesias Roqueiro,Delivered,20/11/2022,11
+Week 11,Lab Intro to BI - Tableau,Daniel J Mendez Borges,,,11
+Week 11,Lab Intro to BI - Tableau,Joaquin Valentin,,,11
+Week 11,Lab Intro to BI - Tableau,Manouk Meilof,,,11
+Week 11,Lab Intro to BI - Tableau,Vanessa Andrade,,,11
+Week 12,Lab Goodness of Fit,Amelie Haberland,Delivered,04/12/2022,12
+Week 12,Lab Goodness of Fit,Angela Arredondo Mendoza,Delivered,17/12/2022,12
+Week 12,Lab Goodness of Fit,Damiano Serra,Delivered,28/12/2022,12
+Week 12,Lab Goodness of Fit,Federico Cavanagh,Delivered,28/11/2022,12
+Week 12,Lab Goodness of Fit,Gregor Seegers,Delivered,31/12/2022,12
+Week 12,Lab Goodness of Fit,Joaquin Valentin,Delivered,09/12/2022,12
+Week 12,Lab Goodness of Fit,Marc Gavaldà,Delivered,02/12/2022,12
+Week 12,Lab Goodness of Fit,María Vázquez Casares,Delivered,31/12/2022,12
+Week 12,Lab Goodness of Fit,Shilei Tan Tan,Delivered,30/12/2022,12
+Week 12,Lab Goodness of Fit,Suparna Mandal,Delivered,19/12/2022,12
+Week 12,Lab Goodness of Fit,Óscar Iglesias Roqueiro,Delivered,19/12/2022,12
+Week 12,Lab Goodness of Fit,Adrian Flores,,,12
+Week 12,Lab Goodness of Fit,Aferdita Zherka Zherka,,,12
+Week 12,Lab Goodness of Fit,Alicia Andrés,,,12
+Week 12,Lab Goodness of Fit,Daniel J Mendez Borges,,,12
+Week 12,Lab Goodness of Fit,Fabio Blank Da Costa,,,12
+Week 12,Lab Goodness of Fit,Francisco Javier De Las Heras Jimenez,,,12
+Week 12,Lab Goodness of Fit,Manouk Meilof,,,12
+Week 12,Lab Goodness of Fit,Max Grempel,,,12
+Week 12,Lab Goodness of Fit,Vanessa Andrade,,,12
+Week 12,Lab Hypothesis Testing 2,Adrian Flores,Delivered,30/11/2022,12
+Week 12,Lab Hypothesis Testing 2,Angela Arredondo Mendoza,Delivered,30/11/2022,12
+Week 12,Lab Hypothesis Testing 2,Damiano Serra,Delivered,28/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Federico Cavanagh,Delivered,27/11/2022,12
+Week 12,Lab Hypothesis Testing 2,Francisco Javier De Las Heras Jimenez,Delivered,20/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Gregor Seegers,Delivered,31/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Joaquin Valentin,Delivered,08/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Marc Gavaldà,Delivered,06/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Shilei Tan Tan,Delivered,30/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Suparna Mandal,Delivered,20/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Óscar Iglesias Roqueiro,Delivered,09/12/2022,12
+Week 12,Lab Hypothesis Testing 2,Aferdita Zherka Zherka,,,12
+Week 12,Lab Hypothesis Testing 2,Alicia Andrés,,,12
+Week 12,Lab Hypothesis Testing 2,Amelie Haberland,,,12
+Week 12,Lab Hypothesis Testing 2,Daniel J Mendez Borges,,,12
+Week 12,Lab Hypothesis Testing 2,Fabio Blank Da Costa,,,12
+Week 12,Lab Hypothesis Testing 2,Manouk Meilof,,,12
+Week 12,Lab Hypothesis Testing 2,María Vázquez Casares,,,12
+Week 12,Lab Hypothesis Testing 2,Max Grempel,,,12
+Week 12,Lab Hypothesis Testing 2,Vanessa Andrade,,,12
+Week 12,Lab Hypothesis Testing 1,Adrian Flores,Delivered,27/11/2022,12
+Week 12,Lab Hypothesis Testing 1,Alicia Andrés,Delivered,03/01/2023,12
+Week 12,Lab Hypothesis Testing 1,Amelie Haberland,Delivered,08/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Angela Arredondo Mendoza,Delivered,30/11/2022,12
+Week 12,Lab Hypothesis Testing 1,Damiano Serra,Delivered,28/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Federico Cavanagh,Delivered,26/11/2022,12
+Week 12,Lab Hypothesis Testing 1,Francisco Javier De Las Heras Jimenez,Delivered,25/11/2022,12
+Week 12,Lab Hypothesis Testing 1,Gregor Seegers,Delivered,31/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Joaquin Valentin,Delivered,05/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Marc Gavaldà,Delivered,06/12/2022,12
+Week 12,Lab Hypothesis Testing 1,María Vázquez Casares,Delivered,25/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Shilei Tan Tan,Delivered,30/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Suparna Mandal,Delivered,19/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Óscar Iglesias Roqueiro,Delivered,09/12/2022,12
+Week 12,Lab Hypothesis Testing 1,Aferdita Zherka Zherka,,,12
+Week 12,Lab Hypothesis Testing 1,Daniel J Mendez Borges,,,12
+Week 12,Lab Hypothesis Testing 1,Fabio Blank Da Costa,,,12
+Week 12,Lab Hypothesis Testing 1,Manouk Meilof,,,12
+Week 12,Lab Hypothesis Testing 1,Max Grempel,,,12
+Week 12,Lab Hypothesis Testing 1,Vanessa Andrade,,,12
+Week 18,Lab Feature Extraction,Adrian Flores,,,18
+Week 18,Lab Feature Extraction,Aferdita Zherka Zherka,,,18
+Week 18,Lab Feature Extraction,Alicia Andrés,,,18
+Week 18,Lab Feature Extraction,Amelie Haberland,,,18
+Week 18,Lab Feature Extraction,Angela Arredondo Mendoza,,,18
+Week 18,Lab Feature Extraction,Damiano Serra,,,18
+Week 18,Lab Feature Extraction,Daniel J Mendez Borges,,,18
+Week 18,Lab Feature Extraction,Fabio Blank Da Costa,,,18
+Week 18,Lab Feature Extraction,Federico Cavanagh,,,18
+Week 18,Lab Feature Extraction,Francisco Javier De Las Heras Jimenez,,,18
+Week 18,Lab Feature Extraction,Gregor Seegers,,,18
+Week 18,Lab Feature Extraction,Joaquin Valentin,,,18
+Week 18,Lab Feature Extraction,Manouk Meilof,,,18
+Week 18,Lab Feature Extraction,Marc Gavaldà,,,18
+Week 18,Lab Feature Extraction,María Vázquez Casares,,,18
+Week 18,Lab Feature Extraction,Max Grempel,,,18
+Week 18,Lab Feature Extraction,Shilei Tan Tan,,,18
+Week 18,Lab Feature Extraction,Suparna Mandal,,,18
+Week 18,Lab Feature Extraction,Vanessa Andrade,,,18
+Week 18,Lab Feature Extraction,Óscar Iglesias Roqueiro,,,18
+Week 18,Lab Intro to AI,Adrian Flores,,,18
+Week 18,Lab Intro to AI,Aferdita Zherka Zherka,,,18
+Week 18,Lab Intro to AI,Alicia Andrés,,,18
+Week 18,Lab Intro to AI,Amelie Haberland,,,18
+Week 18,Lab Intro to AI,Angela Arredondo Mendoza,,,18
+Week 18,Lab Intro to AI,Damiano Serra,,,18
+Week 18,Lab Intro to AI,Daniel J Mendez Borges,,,18
+Week 18,Lab Intro to AI,Fabio Blank Da Costa,,,18
+Week 18,Lab Intro to AI,Federico Cavanagh,,,18
+Week 18,Lab Intro to AI,Francisco Javier De Las Heras Jimenez,,,18
+Week 18,Lab Intro to AI,Gregor Seegers,,,18
+Week 18,Lab Intro to AI,Joaquin Valentin,,,18
+Week 18,Lab Intro to AI,Manouk Meilof,,,18
+Week 18,Lab Intro to AI,Marc Gavaldà,,,18
+Week 18,Lab Intro to AI,María Vázquez Casares,,,18
+Week 18,Lab Intro to AI,Max Grempel,,,18
+Week 18,Lab Intro to AI,Shilei Tan Tan,,,18
+Week 18,Lab Intro to AI,Suparna Mandal,,,18
+Week 18,Lab Intro to AI,Vanessa Andrade,,,18
+Week 18,Lab Intro to AI,Óscar Iglesias Roqueiro,,,18
+Week 19,Lab Imbalance,Adrian Flores,,,19
+Week 19,Lab Imbalance,Aferdita Zherka Zherka,,,19
+Week 19,Lab Imbalance,Alicia Andrés,,,19
+Week 19,Lab Imbalance,Amelie Haberland,,,19
+Week 19,Lab Imbalance,Angela Arredondo Mendoza,,,19
+Week 19,Lab Imbalance,Damiano Serra,,,19
+Week 19,Lab Imbalance,Daniel J Mendez Borges,,,19
+Week 19,Lab Imbalance,Fabio Blank Da Costa,,,19
+Week 19,Lab Imbalance,Federico Cavanagh,,,19
+Week 19,Lab Imbalance,Francisco Javier De Las Heras Jimenez,,,19
+Week 19,Lab Imbalance,Gregor Seegers,,,19
+Week 19,Lab Imbalance,Joaquin Valentin,,,19
+Week 19,Lab Imbalance,Manouk Meilof,,,19
+Week 19,Lab Imbalance,Marc Gavaldà,,,19
+Week 19,Lab Imbalance,María Vázquez Casares,,,19
+Week 19,Lab Imbalance,Max Grempel,,,19
+Week 19,Lab Imbalance,Shilei Tan Tan,,,19
+Week 19,Lab Imbalance,Suparna Mandal,,,19
+Week 19,Lab Imbalance,Vanessa Andrade,,,19
+Week 19,Lab Imbalance,Óscar Iglesias Roqueiro,,,19
+Week 19,Lab Supervised Learning - Regression,Adrian Flores,,,19
+Week 19,Lab Supervised Learning - Regression,Aferdita Zherka Zherka,,,19
+Week 19,Lab Supervised Learning - Regression,Alicia Andrés,,,19
+Week 19,Lab Supervised Learning - Regression,Amelie Haberland,,,19
+Week 19,Lab Supervised Learning - Regression,Angela Arredondo Mendoza,,,19
+Week 19,Lab Supervised Learning - Regression,Damiano Serra,,,19
+Week 19,Lab Supervised Learning - Regression,Daniel J Mendez Borges,,,19
+Week 19,Lab Supervised Learning - Regression,Fabio Blank Da Costa,,,19
+Week 19,Lab Supervised Learning - Regression,Federico Cavanagh,,,19
+Week 19,Lab Supervised Learning - Regression,Francisco Javier De Las Heras Jimenez,,,19
+Week 19,Lab Supervised Learning - Regression,Gregor Seegers,,,19
+Week 19,Lab Supervised Learning - Regression,Joaquin Valentin,,,19
+Week 19,Lab Supervised Learning - Regression,Manouk Meilof,,,19
+Week 19,Lab Supervised Learning - Regression,Marc Gavaldà,,,19
+Week 19,Lab Supervised Learning - Regression,María Vázquez Casares,,,19
+Week 19,Lab Supervised Learning - Regression,Max Grempel,,,19
+Week 19,Lab Supervised Learning - Regression,Shilei Tan Tan,,,19
+Week 19,Lab Supervised Learning - Regression,Suparna Mandal,,,19
+Week 19,Lab Supervised Learning - Regression,Vanessa Andrade,,,19
+Week 19,Lab Supervised Learning - Regression,Óscar Iglesias Roqueiro,,,19
+Week 19,Lab Supervised Learning - Classification,Adrian Flores,,,19
+Week 19,Lab Supervised Learning - Classification,Aferdita Zherka Zherka,,,19
+Week 19,Lab Supervised Learning - Classification,Alicia Andrés,,,19
+Week 19,Lab Supervised Learning - Classification,Amelie Haberland,,,19
+Week 19,Lab Supervised Learning - Classification,Angela Arredondo Mendoza,,,19
+Week 19,Lab Supervised Learning - Classification,Damiano Serra,,,19
+Week 19,Lab Supervised Learning - Classification,Daniel J Mendez Borges,,,19
+Week 19,Lab Supervised Learning - Classification,Fabio Blank Da Costa,,,19
+Week 19,Lab Supervised Learning - Classification,Federico Cavanagh,,,19
+Week 19,Lab Supervised Learning - Classification,Francisco Javier De Las Heras Jimenez,,,19
+Week 19,Lab Supervised Learning - Classification,Gregor Seegers,,,19
+Week 19,Lab Supervised Learning - Classification,Joaquin Valentin,,,19
+Week 19,Lab Supervised Learning - Classification,Manouk Meilof,,,19
+Week 19,Lab Supervised Learning - Classification,Marc Gavaldà,,,19
+Week 19,Lab Supervised Learning - Classification,María Vázquez Casares,,,19
+Week 19,Lab Supervised Learning - Classification,Max Grempel,,,19
+Week 19,Lab Supervised Learning - Classification,Shilei Tan Tan,,,19
+Week 19,Lab Supervised Learning - Classification,Suparna Mandal,,,19
+Week 19,Lab Supervised Learning - Classification,Vanessa Andrade,,,19
+Week 19,Lab Supervised Learning - Classification,Óscar Iglesias Roqueiro,,,19
+Week 21,Lab Unsupervised Learning,Adrian Flores,,,21
+Week 21,Lab Unsupervised Learning,Aferdita Zherka Zherka,,,21
+Week 21,Lab Unsupervised Learning,Alicia Andrés,,,21
+Week 21,Lab Unsupervised Learning,Amelie Haberland,,,21
+Week 21,Lab Unsupervised Learning,Angela Arredondo Mendoza,,,21
+Week 21,Lab Unsupervised Learning,Damiano Serra,,,21
+Week 21,Lab Unsupervised Learning,Daniel J Mendez Borges,,,21
+Week 21,Lab Unsupervised Learning,Fabio Blank Da Costa,,,21
+Week 21,Lab Unsupervised Learning,Federico Cavanagh,,,21
+Week 21,Lab Unsupervised Learning,Francisco Javier De Las Heras Jimenez,,,21
+Week 21,Lab Unsupervised Learning,Gregor Seegers,,,21
+Week 21,Lab Unsupervised Learning,Joaquin Valentin,,,21
+Week 21,Lab Unsupervised Learning,Manouk Meilof,,,21
+Week 21,Lab Unsupervised Learning,Marc Gavaldà,,,21
+Week 21,Lab Unsupervised Learning,María Vázquez Casares,,,21
+Week 21,Lab Unsupervised Learning,Max Grempel,,,21
+Week 21,Lab Unsupervised Learning,Shilei Tan Tan,,,21
+Week 21,Lab Unsupervised Learning,Suparna Mandal,,,21
+Week 21,Lab Unsupervised Learning,Vanessa Andrade,,,21
+Week 21,Lab Unsupervised Learning,Óscar Iglesias Roqueiro,,,21
+Week 21,Lab Problems in ML,Adrian Flores,,,21
+Week 21,Lab Problems in ML,Aferdita Zherka Zherka,,,21
+Week 21,Lab Problems in ML,Alicia Andrés,,,21
+Week 21,Lab Problems in ML,Amelie Haberland,,,21
+Week 21,Lab Problems in ML,Angela Arredondo Mendoza,,,21
+Week 21,Lab Problems in ML,Damiano Serra,,,21
+Week 21,Lab Problems in ML,Daniel J Mendez Borges,,,21
+Week 21,Lab Problems in ML,Fabio Blank Da Costa,,,21
+Week 21,Lab Problems in ML,Federico Cavanagh,,,21
+Week 21,Lab Problems in ML,Francisco Javier De Las Heras Jimenez,,,21
+Week 21,Lab Problems in ML,Gregor Seegers,,,21
+Week 21,Lab Problems in ML,Joaquin Valentin,,,21
+Week 21,Lab Problems in ML,Manouk Meilof,,,21
+Week 21,Lab Problems in ML,Marc Gavaldà,,,21
+Week 21,Lab Problems in ML,María Vázquez Casares,,,21
+Week 21,Lab Problems in ML,Max Grempel,,,21
+Week 21,Lab Problems in ML,Shilei Tan Tan,,,21
+Week 21,Lab Problems in ML,Suparna Mandal,,,21
+Week 21,Lab Problems in ML,Vanessa Andrade,,,21
+Week 21,Lab Problems in ML,Óscar Iglesias Roqueiro,,,21
+Week 22,Lab NLP,Adrian Flores,,,22
+Week 22,Lab NLP,Aferdita Zherka Zherka,,,22
+Week 22,Lab NLP,Alicia Andrés,,,22
+Week 22,Lab NLP,Amelie Haberland,,,22
+Week 22,Lab NLP,Angela Arredondo Mendoza,,,22
+Week 22,Lab NLP,Damiano Serra,,,22
+Week 22,Lab NLP,Daniel J Mendez Borges,,,22
+Week 22,Lab NLP,Fabio Blank Da Costa,,,22
+Week 22,Lab NLP,Federico Cavanagh,,,22
+Week 22,Lab NLP,Francisco Javier De Las Heras Jimenez,,,22
+Week 22,Lab NLP,Gregor Seegers,,,22
+Week 22,Lab NLP,Joaquin Valentin,,,22
+Week 22,Lab NLP,Manouk Meilof,,,22
+Week 22,Lab NLP,Marc Gavaldà,,,22
+Week 22,Lab NLP,María Vázquez Casares,,,22
+Week 22,Lab NLP,Max Grempel,,,22
+Week 22,Lab NLP,Shilei Tan Tan,,,22
+Week 22,Lab NLP,Suparna Mandal,,,22
+Week 22,Lab NLP,Vanessa Andrade,,,22
+Week 22,Lab NLP,Óscar Iglesias Roqueiro,,,22
+Week 22,Lab Deep Learning,Adrian Flores,,,22
+Week 22,Lab Deep Learning,Aferdita Zherka Zherka,,,22
+Week 22,Lab Deep Learning,Alicia Andrés,,,22
+Week 22,Lab Deep Learning,Amelie Haberland,,,22
+Week 22,Lab Deep Learning,Angela Arredondo Mendoza,,,22
+Week 22,Lab Deep Learning,Damiano Serra,,,22
+Week 22,Lab Deep Learning,Daniel J Mendez Borges,,,22
+Week 22,Lab Deep Learning,Fabio Blank Da Costa,,,22
+Week 22,Lab Deep Learning,Federico Cavanagh,,,22
+Week 22,Lab Deep Learning,Francisco Javier De Las Heras Jimenez,,,22
+Week 22,Lab Deep Learning,Gregor Seegers,,,22
+Week 22,Lab Deep Learning,Joaquin Valentin,,,22
+Week 22,Lab Deep Learning,Manouk Meilof,,,22
+Week 22,Lab Deep Learning,Marc Gavaldà,,,22
+Week 22,Lab Deep Learning,María Vázquez Casares,,,22
+Week 22,Lab Deep Learning,Max Grempel,,,22
+Week 22,Lab Deep Learning,Shilei Tan Tan,,,22
+Week 22,Lab Deep Learning,Suparna Mandal,,,22
+Week 22,Lab Deep Learning,Vanessa Andrade,,,22
+Week 22,Lab Deep Learning,Óscar Iglesias Roqueiro,,,22

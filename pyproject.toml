@@ -1,13 +1,29 @@
 
 [dep]
 dependencies = [
-    "requests", "selenium", "beautifulsoup4", "pylint",
-    "openpyxl", "smtplib" ]
+    "pandas",
+    "numpy",
+    "requests",
+    "selenium",
+    "beautifulsoup4",
+    "pylint",
+    "smtplib",
+    "ssl",
+    "getpass
+    ]
 
 [project.optional-dependencies]
 dev = [
-    "requests", "selenium", "beautifulsoup4", "pylint",
-    "openpyxl", "smtplib" ]
+    "pandas",
+    "numpy",
+    "requests",
+    "selenium",
+    "beautifulsoup4",
+    "pylint",
+    "smtplib",
+    "ssl",
+    "getpass
+    ]
 
 [tool.setuptools]
 py-modules = []
