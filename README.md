@@ -10,12 +10,11 @@
 - Track of unsubmitted labs;
 - Submission rate until the 80% for aproving students;
 - Submission rate of the total available and mandatory labs;
-- Notification of the amount of labs for the following week;
 - Sending e-mails to the students with their KPI's
 
 ## Motivation:
 
-- IH Data Analytics PT RMT Courses take 6 months to complete, having in the meantime around 30 labs that the students are asked to complete.
+- IH Data Analytics PT RMT Courses take 6 months to complete, having in the meantime around 34 labs that the students are asked to complete.
 - Checking submissions, following up and keeping track of their submission rates takes a fair amount of time on a weekly basis.
 - Based on the advances that the TA's of Lisbon have done, we picked their scripts and created a new one, specifically made for Remote DA Cohorts.
 
