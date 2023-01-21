@@ -29,7 +29,6 @@
 - Miguel Simón - TA
 - Supervised by: David Henriques - LT
 
-
 ## User Guide:
 
 ### Environment and dependencies:

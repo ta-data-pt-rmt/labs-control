@@ -1,6 +1,5 @@
 """Main script to run weekly labs control."""
 import logging
-import pathlib
 import sys
 import pandas as pd
 import argparse
@@ -18,13 +17,28 @@ def main(
     email_dict : dict = STUDENT_EMAILS,
     weeks_organization : dict = WEEKS_DICT,
     )-> str:
-    """Runs all weekly pipeline. 
-    Scrapes students portal;
-    Creates Dataframe;
-    Cleans table;
-    Sends e-mail of their current lab status;
+    """
+    Project pipeline, that does the following:
+        -Extracts TA's mail account password to connect with gmail during scrapping
+            and extracts the 16 character token of email used to sending labs.
+        -Runs scraper to extract macro and detailed information of each cohort student
+            lab submission information using Selenium and BeautifulSoup.
+        -Sends emails to each student based on their completion percentage of required
+            labs, using Ironhack's threshold of 80% completion rate.
+    
+    Args: 
+        current_week : current bootcamp week.
+        ta_ironhack_email : main TA ironhakc mail account for connecting during scraping.
+        ta_gmail_email : e-mail used for sending emails.
+        email_dict : dictionary with students names and their emails.
+        weeks_organization : dictionary with Week numbers as values and the existing labs 
+            in corresponding weeks as values.
+            
+    Returns:
+        None
     """
 
+    # store passwords and mail tokens
     secrets = obtain_ta_secrets()
 
     # main ironhack ta email
@@ -49,10 +63,9 @@ def main(
     # students performance table
     labs_overall = create_students_table( students_list, driver)
     
-
     # clean table
     labs_overall = clean_students_table(labs_overall)
-    labs_overall.to_csv("labs_without_weeks.csv")
+
     # dictionary with labs per week number key into DataFrame 
     weeks_df = (
         pd.DataFrame.
@@ -72,6 +85,7 @@ def main(
         right_on = "Lab_name")
 
     labs_with_weeks["week_nr"] = labs_with_weeks['Week'].str.extract('(\d+)').astype(int)
+
     # filter based on current week input
     labs_with_weeks = (
         labs_with_weeks.loc[labs_with_weeks["week_nr"] <= int(current_week)]
@@ -87,8 +101,9 @@ def main(
         email_dict
     )
     
+    logger.info("Pipeline ran. All emails sent!")
 
-    return "tables saved."
+    return None
 
 if __name__ == "__main__": # pragma: no cover
 
@@ -109,7 +124,6 @@ if __name__ == "__main__": # pragma: no cover
     if int(current_week) > BOOTCAMP_WEEKS:
         logger.error("Please input week value smaller than 23.")
         sys.exit()
-
 
     #run script
     main(current_week)

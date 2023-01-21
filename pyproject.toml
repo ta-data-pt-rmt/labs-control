@@ -9,7 +9,6 @@ dependencies = [
     "pylint",
     "smtplib",
     "ssl",
-    "getpass
     ]
 
 [project.optional-dependencies]
@@ -22,7 +21,6 @@ dev = [
     "pylint",
     "smtplib",
     "ssl",
-    "getpass
     ]
 
 [tool.setuptools]

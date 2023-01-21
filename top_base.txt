@@ -7,5 +7,5 @@ description = "Automation of Lab Control for IH Data Analytics PT RMT"
 authors = [
     {name = "Goncalo Jardim<goncalodajardim@gmail.com>"},
     {name = "Miguel Simón<miguelsimonmoya@gmail.com>"},
-    {name = "Ironhack TA's<ta-data-pt-rmt@ironhack.com>}"}
+    {name = "Ironhack TAs<ta-data-pt-rmt@ironhack.com>}"}
 ]

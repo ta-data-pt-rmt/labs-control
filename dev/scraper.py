@@ -3,7 +3,6 @@
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import logging
-import pathlib
 import time
 import pandas as pd
 from selenium import webdriver
@@ -157,6 +156,20 @@ def create_students_table(
     students_list : list,
     driver : webdriver,
     )-> pd.DataFrame() :
+    """
+    Iterates student by student, opening and closing a new tab for each student,
+        to collect their submission statuses, delivery dates, lab names and
+        lab required marks. Returns a main dataframe containing this information for
+        all students.
+    
+    Args: 
+        students_list : List of all bootcamp students name.
+        driver : selenium instance that locates in the main page of students assignments.
+    
+    Returns:
+        all_students_table : table with information regarding lab submission for
+            all students.
+    """
 
     # main window handle
     wait = WebDriverWait(driver, 10)
@@ -230,6 +243,15 @@ def create_students_table(
 def clean_students_table(
     students_df : pd.DataFrame
     ) -> pd.DataFrame :
+    """
+    Cleans and structures all_students_table DataFrame.
+    
+    Args:
+        all_students_table : DataFrame with students lab submissions information.
+    
+    Returns:
+        students_df : Cleaned and transformed all_students_table DataFrame.
+    """
 
     students_df = (
         students_df.
