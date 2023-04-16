@@ -131,7 +131,7 @@ dmypy.json
 
 # Password info
 secrets.txt
-
+config.ini
 # Data
 .csv
 .xlsx

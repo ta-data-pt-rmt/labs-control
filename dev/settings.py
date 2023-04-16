@@ -13,35 +13,31 @@ TEACHING_EMAIL = "ta-data-pt-rmt@ironhack.com"
 # cohort main teaching ironhack email
 SENDING_EMAIL = "ta.data.ironhack@gmail.com"
 
+# cohort campus tools link:
+COHORT_LINK = "https://campus-tools.ironhack.com/#/cohorts/6308c6dca5eeff002c60c2bc/show/course_progress/students"
+
 # cohort student emails
 # !Important- Use the exact names that appear on student portal:
 STUDENT_EMAILS = {
-    "Adrian Flores" : "adrianfg88@gmail.com",
-    "Aferdita Zherka Zherka" : "zherka.aferdita@outlook.com",
-    "Alicia Andrés" : "aliciaandressalguero@gmail.com",
-    "Amelie Haberland" : "amelie.haberland@ironhack.com",
-    "Angela Arredondo Mendoza" : "angela.arredondo99@gmail.com",
-    "Damiano Serra" : "damsvpn@protonmail.com",
-    "Daniel J Mendez Borges" : "djmborges92@gmail.com",
-    "Fabio Blank Da Costa" : "fabioblankc@gmail.com",
-    "Federico Cavanagh" : "fedecavanagh@live.com",
-    "Francisco Javier De Las Heras Jimenez" : "javierherasjimenez@hotmail.com",
-    "Gregor Seegers" : "gregor.seegers@gmail.com",
-    "Joaquin Valentin" : "quino117@hotmail.com",
-    "Manouk Meilof" : "manoukmeilof@gmail.com",
-    "Marc Gavaldà" : "gavalda.marc@gmail.com",
-    "María Vázquez Casares" : "maria.vazquez.casares@gmail.com",
-    "Max Grempel" : "maximilian.grempel@gmail.com",
-    "Shilei Tan Tan" : "tanshilei@gmail.com",
-    "Óscar Iglesias Roqueiro" : "roque.ourense@gmail.com",
-    "Suparna Mandal" : "suparna.sahoo@gmail.com",
-    "Vanessa Andrade" : "anvergara95@gmail.com"
+    "Andreia Jardim" : "jardim.andreia@outlook.pt",
+    "André Fontoura Faria" : "fontourafaria@hotmail.com",
+    "Anna Schemuth" : "anna.schemuth@gmail.com",
+    "David Santos" : "vonfiggy@icloud.com",
+    "Erica Saito Neves" : "ericaneves.mkt@gmail.com",
+    "Flor Maria Roa" : "florma67@gmail.com",
+    "Geetu -" : "geetver10@gmail.com",
+    "Iñigo Auzmendi" : "iauzmendipinedo@gmail.com",
+    "Kathryn Nicholson" : "kgcnkgcn@gmail.com",
+    "Marcello Gelormini" : "marcello.gelormini@gmail.com",
+    "Mario Carmona Rodríguez" : "carmonarodriguez.mario@gmail.com",
+    "Marta Fernández Piñeiro" : "martafp11@gmail.com",
+    "Miquele Luce" : "miquelemelo@gmail.com",
+    "Sabir Kerimov" : "sabirkmv99@gmail.com",
+    "Vladimir Tesar" : "tsrvldmr@gmail.com"
 }
 
 # dropped students - place here students that are moved out of the bootcamp
-DROPPED_STUDENTS = [
-    "Manouk Meilof"
-]
+DROPPED_STUDENTS = []
 
 # number of bootcamp weeks
 BOOTCAMP_WEEKS = 26
@@ -57,25 +53,21 @@ WEEKS_DICT = {
         'Lab Subsetting and Descriptive Stats'],
     'Week 6': ['Lab MySQL Actions', 'Lab MySQL First Queries'],
     'Week 7': [
-        'Lab MySQL Select', 'Lab Advanced MySQL | Optional',
-        'Lab Advanced MySQL | Optional'],
+        'Lab MySQL Select', 'Lab Advanced MySQL | Optional'],
     'Week 8': [
-        'Lab API Scavenger','Lab Web Scraping',
         'Lab Map-Reduce-Filter | OPTIONAL', 'Lab Lambda Functions | Optional'],
-    'Week 9': ['Lab StackAPI | OPTIONAL'],
-    'Week 10': [
-        'Lab Confidence Intervals','Lab Pandas Deep-dive',
-        'Lab Parallelization | Optional'],
-    'Week 11': [
-        'Lab BI Analysis - Tableau', 'Lab Intro to BI - Tableau', 
-        'Lab Advanced Charts - Tableau [OPTIONAL]'],
-    'Week 12': [
-        'Lab Goodness of Fit', 'Lab Hypothesis Testing 2',
-        'Lab Hypothesis Testing 1', 'Lab Pivot Tables | Optional'],
-    'Week 14': ['Lab Intro  to Probability [OPTIONAL]'], 
-    'Week 18': ['Lab Feature Extraction', 'Lab Intro to AI'],
+    'Week 9': ['Lab API Scavenger', 'Lab Web Scraping'],
+    'Week 10': ['Lab StackAPI | OPTIONAL'],
+    'Week 11': ['Lab Parallelization | Optional', 'Lab Confidence Intervals',
+                'Lab Pandas Deep-dive'],
+    'Week 12': ['Lab Advanced Charts - Tableau [OPTIONAL]',
+                'Lab BI Analysis - Tableau', 'Lab Intro to BI - Tableau'],
+    'Week 13': ['Lab Goodness of Fit', 'Lab Hypothesis Testing 1',
+                'Lab Hypothesis Testing 2','Lab Pivot Tables | Optional'],
+    'Week 15': ['Lab Intro  to Probability [OPTIONAL]'], 
+    'Week 18': ['Lab Intro to AI'],
     'Week 19': ['Lab Imbalance', 'Lab Supervised Learning - Regression',
-    'Lab Supervised Learning - Classification'],
+    'Lab Supervised Learning - Classification', 'Lab Feature Extraction'],
     'Week 21': ['Lab Unsupervised Learning', 'Lab Problems in ML'],
     'Week 22': ['Lab NLP', 'Lab Deep Learning']
 }

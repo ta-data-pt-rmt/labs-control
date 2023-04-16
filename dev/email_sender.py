@@ -6,6 +6,7 @@ import ssl
 import smtplib
 import time
 from typing import List
+from configparser import ConfigParser
 import pathlib
 
 from settings import STUDENT_EMAILS, DROPPED_STUDENTS, SENDING_EMAIL, SECRETS_PATH
@@ -16,15 +17,30 @@ logger = logging.getLogger(__name__)
 def obtain_ta_secrets(
     secrets_path: pathlib.Path = SECRETS_PATH
     ) -> List[str]:
+    """
+    From file secrets.txt located in secrets folder,
+        extracts the password for the TA mailing account and the access token 
+        used for email sending, which differs from the TA mailing account.
+    
+    Args:
+        secrets_path : Path that directs to the secrets.txt directory.
 
-    # import secrets password and token
-    with open(secrets_path.joinpath('secrets.txt')) as f:
-        secrets = f.read().splitlines()
+    Returns:
+        secrets : List where first element is TA account password
+            and second element is access token for the email sending gmail account.
+    """
+
+    # import secrets password and token from config.ini
+    # with open(secrets_path.joinpath('config.txt')) as f:
+    #     secrets = f.read().splitlines()
+    config = ConfigParser()
+    config.read(secrets_path.joinpath('config.ini'))
 
     # store TEACHING_EMAIL password
-    ta_ironhack_password = secrets[0]
+    ta_ironhack_password = config['campus-tools']['campus-pass']
+
     # store access token of email used for sending emails
-    access_token_emails = secrets[1]
+    access_token_emails = config['ta-gmail']['gmail-token']
 
     secrets = [ta_ironhack_password, access_token_emails]
 
@@ -34,7 +50,19 @@ def obtain_ta_secrets(
 def _get_completed_and_pending_labs(
     labs_overall : pd.DataFrame,
     student_name : str
-    )->  List[str] :
+    )->  List[list] :
+    """
+    Stores in a list, a list of all required and delivered labs, and another list
+        with all the required but still pending to submit labs for the specified student.
+    
+    Args:
+        labs_overall : DataFrame containing all labs information for each student,
+            until current week of the bootcamp.
+        student_name : Name of the cohort student.
+
+    Returns:
+        labs_results : List containing the list of delivered_labs and list of pending_labs.
+    """
 
     # filter by student
     student_sub = labs_overall[labs_overall["student_name"] == student_name]
@@ -63,15 +91,27 @@ def _get_completed_and_pending_labs(
 def _get_lab_completion_metrics(
     macro_df : pd.DataFrame,
     student_name : str,
-    ) -> List[float] :
+    ) -> int :
+    """
+    From a table with the students performance during the present cohort,
+        filters for each student to get their macro results, such as overall 
+        lab completion and total required labs of current bootcamp.
+    
+    Args:
+        macro_df : DataFrame with students overall results.
+        student_name : Name of specified student.
+    
+    Returns: 
+        total_labs : number of total required bootcamp labs
+    """
 
     # filter by student name
     student_df = macro_df[macro_df["student_name"]== student_name]
 
     # bootcamp total labs
-    total_labs = student_df['total_required_labs'].iloc[0]
+    total_labs = int(student_df['total_required_labs'].iloc[0])
 
-    logger.info(f"There is {int(total_labs)} labs in total for this cohort.")
+    logger.info(f"There is {total_labs} labs in total for this cohort.")
 
     return total_labs
 
@@ -83,7 +123,28 @@ def send_emails(
     email_sender : str = SENDING_EMAIL,
     dropped_students : List[str] = DROPPED_STUDENTS,
     email_dict : dict = STUDENT_EMAILS
-    ) -> str:
+    ) -> None:
+    """
+    Based on student lab completion, sends a personalized email, specifying their
+        completion percentage, how many labs they have submitted until the current 
+        week, the total number of required labs so far, and a description of all
+        pending labs.
+
+    Args:
+        week : current bootcamp week.
+        labs_overall : DataFrame containing all labs information for each student,
+            until current week of the bootcamp.
+        macro_df : DataFrame with students macro results.
+        email_token : 16 character token used to send emails through SMTP connection
+            of gmail account.
+        email_sender : email account used for sending the emails.
+        dropped_students : students that have been moved out of the bootcamp for any 
+            motive.
+        email_dict : dictionary with students names as keys and students emails as values.
+    
+    Returns:
+        None
+    """
 
     # cohort students
     student_names = email_dict.keys()
@@ -91,8 +152,9 @@ def send_emails(
     # iterate through all students
     for student in student_names:
 
+
         if student in dropped_students:
-            pass
+            email_dict[student] = 'goncalodajardim@gmail.com'
 
         logger.info(f"Preparing e-mail sending for student {student}.")
         # lists of required and pending labs
@@ -148,10 +210,11 @@ def send_emails(
                     
             Ironhack Teaching Team
             '''
-        #later replace with : email_dict[student]:    
-        email_receiver = "miguelsimonmoya@gmail.com" 
-        
-        subject = "Ironhack lab status"
+        # student email
+        email_receiver = email_dict[student]
+        logger.info(f"Student email is: {email_dict[student]}")
+
+        subject = "Ironhack lab status: Week " + str(week)
         
         em = EmailMessage()
         em["From"] = email_sender
@@ -164,8 +227,9 @@ def send_emails(
         with smtplib.SMTP_SSL("smtp.gmail.com", context = context) as smtp:
             smtp.login(email_sender, email_token)
             smtp.sendmail(email_sender, email_receiver, em.as_string())
-        
-                            
+                        
         time.sleep(2)
     
-    return "E-mails sent to all students. Repeat proccess next week (:"
+    logger.info("E-mails sent to all students. Repeat proccess next week (:")
+
+    return None

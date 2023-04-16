@@ -3,7 +3,6 @@
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 import logging
-import pathlib
 import time
 import pandas as pd
 from selenium import webdriver
@@ -12,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-from settings import  TEACHING_EMAIL
+from settings import  COHORT_LINK, TEACHING_EMAIL
 from bs4 import BeautifulSoup
 
 # logger
@@ -21,7 +20,8 @@ logger = logging.getLogger(__name__)
 
 def campus_tools_connection(
     teacher_password : str,
-    teacher_email : str = TEACHING_EMAIL
+    teacher_email : str = TEACHING_EMAIL,
+    cohort_link : str = COHORT_LINK
     )-> webdriver:
     """Creates driver connection to ironhack campus tools
     and inserts ta account credentials to log in.
@@ -40,7 +40,7 @@ def campus_tools_connection(
     time.sleep(9.5)
 
     # open student lab progress page
-    driver.get('https://campus-tools.ironhack.com/#/cohorts/618138e279542a002c897068/show/course_progress/students')
+    driver.get(cohort_link)
     time.sleep(4)
 
     # redirection to gmail log-in
@@ -65,12 +65,13 @@ def campus_tools_connection(
 
     # advance button:
     advance_2 = driver.find_element(By.ID, "passwordNext")
+    print("found it.")
     time.sleep(1.5)
     advance_2.click()
     time.sleep(4.5)
 
     # get student portal link again because sometimes the previous page gets stuck
-    driver.get('https://campus-tools.ironhack.com/#/cohorts/618138e279542a002c897068/show/course_progress/students')
+    driver.get(cohort_link)
     time.sleep(3.5)
     logger.info("Sucessfully accessed campus tools website!")
 
@@ -157,6 +158,20 @@ def create_students_table(
     students_list : list,
     driver : webdriver,
     )-> pd.DataFrame() :
+    """
+    Iterates student by student, opening and closing a new tab for each student,
+        to collect their submission statuses, delivery dates, lab names and
+        lab required marks. Returns a main dataframe containing this information for
+        all students.
+    
+    Args: 
+        students_list : List of all bootcamp students name.
+        driver : selenium instance that locates in the main page of students assignments.
+    
+    Returns:
+        all_students_table : table with information regarding lab submission for
+            all students.
+    """
 
     # main window handle
     wait = WebDriverWait(driver, 10)
@@ -221,7 +236,7 @@ def create_students_table(
         # switch back to the old tab or window
         driver.switch_to.window(original_window)
 
-        time.sleep(4)
+        time.sleep(7)
     logger.info("Terminated collecting lab statuses for all students.")
 
     return all_students_table
@@ -230,6 +245,15 @@ def create_students_table(
 def clean_students_table(
     students_df : pd.DataFrame
     ) -> pd.DataFrame :
+    """
+    Cleans and structures all_students_table DataFrame.
+    
+    Args:
+        all_students_table : DataFrame with students lab submissions information.
+    
+    Returns:
+        students_df : Cleaned and transformed all_students_table DataFrame.
+    """
 
     students_df = (
         students_df.
