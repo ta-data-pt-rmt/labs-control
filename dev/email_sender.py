@@ -6,6 +6,7 @@ import ssl
 import smtplib
 import time
 from typing import List
+from configparser import ConfigParser
 import pathlib
 
 from settings import STUDENT_EMAILS, DROPPED_STUDENTS, SENDING_EMAIL, SECRETS_PATH
@@ -29,14 +30,17 @@ def obtain_ta_secrets(
             and second element is access token for the email sending gmail account.
     """
 
-    # import secrets password and token
-    with open(secrets_path.joinpath('secrets.txt')) as f:
-        secrets = f.read().splitlines()
+    # import secrets password and token from config.ini
+    # with open(secrets_path.joinpath('config.txt')) as f:
+    #     secrets = f.read().splitlines()
+    config = ConfigParser()
+    config.read(secrets_path.joinpath('config.ini'))
 
     # store TEACHING_EMAIL password
-    ta_ironhack_password = secrets[0]
+    ta_ironhack_password = config['campus-tools']['campus-pass']
+
     # store access token of email used for sending emails
-    access_token_emails = secrets[1]
+    access_token_emails = config['ta-gmail']['gmail-token']
 
     secrets = [ta_ironhack_password, access_token_emails]
 
@@ -148,8 +152,9 @@ def send_emails(
     # iterate through all students
     for student in student_names:
 
+
         if student in dropped_students:
-            email_dict[student] = email_sender
+            email_dict[student] = 'goncalodajardim@gmail.com'
 
         logger.info(f"Preparing e-mail sending for student {student}.")
         # lists of required and pending labs
@@ -207,8 +212,9 @@ def send_emails(
             '''
         # student email
         email_receiver = email_dict[student]
-        
-        subject = "Ironhack lab status"
+        logger.info(f"Student email is: {email_dict[student]}")
+
+        subject = "Ironhack lab status: Week " + str(week)
         
         em = EmailMessage()
         em["From"] = email_sender

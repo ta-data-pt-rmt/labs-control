@@ -1,30 +1,21 @@
+[project]
+name = "labs-control"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.8"
+description = "Lab controller for Ironhack Data PT-RMT students."
+authors = [
+    {name = "Gonçalo Jardim<goncalodajardim@gmail.com>"},
+    {name = "Miguel Simón<miguelsimonmoya@gmail.com>"}
+]
 
-[dep]
-dependencies = [
-    "pandas",
-    "numpy",
-    "requests",
-    "selenium",
-    "beautifulsoup4",
-    "pylint",
-    "smtplib",
-    "ssl",
-    ]
+dependencies = ["pandas", "numpy", "selenium", "webdriver-manager", "bs4"]
 
 [project.optional-dependencies]
-dev = [
-    "pandas",
-    "numpy",
-    "requests",
-    "selenium",
-    "beautifulsoup4",
-    "pylint",
-    "smtplib",
-    "ssl",
-    ]
+dev = ["pytest", "pylint", "pytest-cov"]
 
 [tool.setuptools]
-py-modules = []
+packages = ["dev"]
 
 [tool.coverage.run]
 omit = [

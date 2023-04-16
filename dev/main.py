@@ -5,7 +5,7 @@ import pandas as pd
 import argparse
 from scraper import campus_tools_connection, get_macro_student_table, create_students_table, clean_students_table
 from email_sender import send_emails, obtain_ta_secrets
-from settings import WEEKS_DICT, STUDENT_EMAILS, TEACHING_EMAIL, SENDING_EMAIL, BOOTCAMP_WEEKS
+from settings import WEEKS_DICT, STUDENT_EMAILS, TEACHING_EMAIL, SENDING_EMAIL, BOOTCAMP_WEEKS, DROPPED_STUDENTS
 
 # logger
 logger = logging.getLogger(__name__)
@@ -16,6 +16,7 @@ def main(
     ta_gmail_email : str = SENDING_EMAIL,
     email_dict : dict = STUDENT_EMAILS,
     weeks_organization : dict = WEEKS_DICT,
+    dropped_students: list = DROPPED_STUDENTS
     )-> str:
     """
     Project pipeline, that does the following:
@@ -98,6 +99,7 @@ def main(
         macro_results,
         ta_gmail_token,
         ta_gmail_email,
+        dropped_students,
         email_dict
     )
     
